@@ -30,17 +30,17 @@
   position: fixed;
   left: 1rem;
   right: 1rem;
-  bottom: 1rem;
-  top: 3rem;
+  bottom: 3rem;
+  top: 5rem;
 }
 .menu-absolute {
-  top: 0rem;
-  right: 1rem;
+  top: 0.5rem;
+  right: 0.7rem;
   position: fixed;
   z-index: 91;
 }
 .menu-absolute img {
-  width: 1.2rem;
+  width: 1.3rem;
 }
 .lists li a {
   text-decoration: none;

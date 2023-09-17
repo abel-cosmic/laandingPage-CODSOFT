@@ -1,35 +1,92 @@
-.section-items {
-  display: flex;
-  flex-direction: column;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  gap: 1.5rem;
-  cursor: pointer;
-}
-.section-container {
+#services {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding: 1rem 0.7rem 3rem 1rem;
+}
+#services .title {
+  font-size: 1rem;
+  color: #414040;
+  text-align: center;
+}
+.service-container {
+  padding: 0px 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.service-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  padding-bottom: 4rem;
   box-shadow: 0px 0px 50px #00000020;
   font-size: 1.1rem;
   transition: transform 0.3s, box-shadow 0.3s;
 }
-
-.section-container h2 {
-  color: #cc1616a7;
+.image-container {
+  padding: 1.3rem;
+  display: flex;
+  background-color: #cc1616;
+  box-shadow: -0.5rem -0.5rem 0 #cc16162f;
 }
-
-.section-container p {
-  color: rgb(84, 84, 84);
-  font-size: 1rem;
+.service-items p {
+  font-size: 0.9rem;
 }
-.section-container:hover {
+.service-items:hover {
   transform: translateY(-10px);
   background-color: #cc1616;
 }
-.section-container:hover h2,
-.section-container:hover h1,
-.section-container:hover p {
+.service-items:hover h1,
+.service-items:hover p {
   color: white;
+}
+.service-items:hover .image-container {
+  background-color: white;
+  box-shadow: -0.5rem -0.5rem 0 #ffffff46;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-image: url("../assets/images/call.png");
+}
+.backdrop {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #00000090;
+}
+.backdrop h1 {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+.backdrop p {
+  text-align: center;
+  font-size: 1.1rem;
+}
+.backdrop button {
+  background-color: transparent;
+  color: white;
+  border: solid 2px white;
+  padding: 1rem 2.2rem;
+  font-weight: 700;
+}
+.backdrop button:hover {
+  border: none;
+  margin: 2px;
+  background-color: #cc1616d8;
+}
+.backdrop button:active {
+  scale: 0.9;
 }
