@@ -1,0 +1,36 @@
+#about {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 4rem;
+}
+#about div h1 {
+  color: black;
+  font-size: 1.5rem;
+}
+.discussion {
+  width: 100%;
+}
+.about-lists {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: rgb(75, 75, 75);
+}
+.about-lists .list {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.list img {
+  width: 1.2rem;
+  height: 1.2rem;
+}

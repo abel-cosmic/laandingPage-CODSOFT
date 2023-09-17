@@ -1,0 +1,35 @@
+.section-items {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  gap: 1.5rem;
+  cursor: pointer;
+}
+.section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 0.7rem 3rem 1rem;
+  box-shadow: 0px 0px 50px #00000020;
+  font-size: 1.1rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.section-container h2 {
+  color: #cc1616a7;
+}
+
+.section-container p {
+  color: rgb(84, 84, 84);
+  font-size: 1rem;
+}
+.section-container:hover {
+  transform: translateY(-10px);
+  background-color: #cc1616;
+}
+.section-container:hover h2,
+.section-container:hover h1,
+.section-container:hover p {
+  color: white;
+}

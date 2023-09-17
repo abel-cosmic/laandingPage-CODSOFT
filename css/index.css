@@ -1,0 +1,63 @@
+/*_________________________________________________
+--buttons
+___________________________________________________*/
+.toogleup {
+  padding: 0.8rem;
+  background-color: #cc1616d8;
+  border-radius: 0.2rem;
+  display: flex;
+  width: fit-content;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 50;
+}
+.toogleup img {
+  width: 0.75rem;
+}
+.toogleup:hover {
+  background-color: #cc1616;
+}
+.toogleup:active {
+  scale: 0.9;
+}
+/*_________________________________________________
+general configurations
+___________________________________________________*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 4.9rem;
+  font-size: 24px;
+  border: 1px red solid;
+}
+html {
+  scroll-behavior: smooth;
+}
+.text-container {
+  position: relative;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #333;
+}
+
+.text-container::before {
+  content: attr(data-text);
+  position: absolute;
+  top: -1rem;
+  left: 0;
+  opacity: 0.5;
+  color: #ccc;
+  z-index: -1;
+  text-align: center;
+  transform: scale(1.2);
+  transform-origin: center;
+}

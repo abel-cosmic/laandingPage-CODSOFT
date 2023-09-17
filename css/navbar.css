@@ -1,0 +1,65 @@
+.navbar {
+  background-color: #000000e4;
+  display: flex;
+  padding: 1rem 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 950;
+  border-top: 1px grey solid;
+  border-bottom: 1px grey solid;
+}
+.navbar img {
+  width: 1.5rem;
+}
+.logo {
+  color: white;
+}
+.lists {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  gap: 2rem;
+  z-index: 100;
+  background-color: aliceblue;
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  top: 3rem;
+}
+.menu-absolute {
+  top: 0rem;
+  right: 1rem;
+  position: fixed;
+  z-index: 91;
+}
+.menu-absolute img {
+  width: 1.2rem;
+}
+.lists li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+}
+.lists li a.active {
+  color: #cc1616;
+}
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  z-index: 999;
+  display: none;
+}
+.menu-icon {
+  cursor: pointer;
+}
