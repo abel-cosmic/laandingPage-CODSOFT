@@ -71,9 +71,9 @@ nav {
     display: none;
   }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* .desktop-lists{
+  .desktop-lists{
     display: none;
-  } */
+  }
 }
 
 /* Media query for desktops (min-width: 1024px) */
@@ -106,7 +106,7 @@ nav {
     background-color: #cc1616;
 
   }
-  .active{
+  .plus{
     background-color: #cc1616;
   }
 }

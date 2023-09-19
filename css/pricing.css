@@ -90,3 +90,11 @@
   background-color: #fff;
   color: #cc1616;
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+@media screen and (min-width: 1024px) {
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

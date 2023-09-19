@@ -92,3 +92,17 @@
 .backdrop button:active {
   scale: 0.9;
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+@media screen and (min-width: 1024px) {
+  .service-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .backdrop p {
+   padding: 1rem 20rem;
+  }
+  .backdrop h1 {
+    font-size: 3.2rem;
+  }
+}

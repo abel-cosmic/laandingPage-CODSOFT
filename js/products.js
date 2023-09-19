@@ -13,9 +13,9 @@ document.addEventListener("DOMContentLoaded", function () {
       e.preventDefault();
       const selectedCategory = link.getAttribute("data-category");
       categoryLinks.forEach((categoryLink) => {
-        categoryLink.classList.remove("active");
+        categoryLink.classList.remove(".plus");
       });
-      link.classList.add("active");
+      link.classList.add(".plus");
       const shuffledItems = Array.from(projectItems);
       shuffleArray(shuffledItems);
 

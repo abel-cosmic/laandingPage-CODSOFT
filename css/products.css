@@ -74,3 +74,16 @@
 .hovered:hover{
   background-color: #fff;
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+@media screen and (min-width: 1024px) {
+  .producter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .product-1 {
+    border: solid rgb(192, 192, 192) 0.5px;
+  }
+}

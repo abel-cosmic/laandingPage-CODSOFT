@@ -2,8 +2,8 @@ const listItems = document.querySelectorAll(".desktop-lists li");
 const sections = document.querySelectorAll(".section");
 
 function setActive(listItem) {
-  listItems.forEach((item) => item.classList.remove("active"));
-  listItem.classList.add("active");
+  listItems.forEach((item) => item.classList.remove("plus"));
+  listItem.classList.add("plus");
 }
 
 listItems.forEach((item) => {

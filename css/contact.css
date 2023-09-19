@@ -5,7 +5,7 @@
   flex-direction: column;
 }
 .contact-items {
-  padding: 1rem 0;
+  padding: 0;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -76,4 +76,41 @@
 }
 .contact-form input[type="submit"]:active {
   scale: 0.9;
+}
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: fit-content;
+}
+.frame{
+  padding: 1rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+@media screen and (min-width: 1024px) {
+  .contact-items {
+    flex-direction: row;
+    width: 100%;
+    gap: 5rem;
+    padding-top: 4rem;
+    align-items: flex-start;
+  }
+  .bluhh {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  .contact-item {
+    width: 100%;
+  }
+  .frame {
+    display: none;
+  }
+  .contact-details{
+    width: 100%;
+  }
 }
