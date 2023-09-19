@@ -13,12 +13,15 @@
     <link rel="stylesheet" href="css/products.css" />
     <link rel="stylesheet" href="css/pricing.css" />
     <link rel="stylesheet" href="css/team.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/footer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <script src="js/desktop.js" defer></script>
     <script src="js/mobile.js" defer></script>
     <script src="js/navigation.js" defer></script>
     <script src="js/services.js" defer></script>
@@ -37,6 +40,15 @@
         id="menu-icon-inactive"
         class="menu-icon"
       />
+      <ul class="desktop-lists">
+        <li data-section="home" class="active"><a href="#"> Home </a></li>
+        <li data-section="about"><a href="#About"> About </a></li>
+        <li data-section="services"><a href="#Services"> Services </a></li>
+        <li data-section="products"><a href="#Products"> Products </a></li>
+        <li data-section="pricing"><a href="#Pricing"> Pricing </a></li>
+        <li data-section="team"><a href="#Team"> Team </a></li>
+        <li data-section="contact"><a href="#Contact"> Contact </a></li>
+      </ul>
     </header>
     <nav id="menu">
       <li class="menu-absolute menu-icon">
@@ -52,6 +64,7 @@
         <li><a href="#Contact" data-section="contact"> Contact </a></li>
       </ul>
     </nav>
+
     <main>
       <section id="home" class="section">
         <div class="hero">
@@ -140,7 +153,7 @@
           </li>
         </ul>
       </section>
-      <section id="companies">
+      <section id="companies"  class="section">
         <ul class="clients">
           <li><img src="assets/icons/client-1.png" alt="" class="client" /></li>
           <li><img src="assets/icons/client-2.png" alt="" class="client" /></li>
@@ -580,7 +593,214 @@
           </li>
         </ul>
       </section>
-      <section id="contact" class="section">Contact Section</section>
+      <section id="contact" class="section">
+        <div class="text-container" data-text="CONTACT">CONTACT</div>
+        <ul class="contact-items">
+          <li class="contact-item">
+            <div class="contact-img">
+              <img src="assets/icons/Vector.svg" alt="" />
+            </div>
+            <div>Our Address</div>
+            <p>A108 Adam Street, New York, NY 535022</p>
+          </li>
+          <li class="contact-item">
+            <div class="contact-img">
+              <img src="assets/icons/email.svg" alt="" />
+            </div>
+            <div>Email Us</div>
+            <p>contact@example.com</p>
+          </li>
+          <li class="contact-item">
+            <div class="contact-img">
+              <img src="assets/icons/phone.svg" alt="" />
+            </div>
+            <div>Call Us</div>
+            <p>+1 5589 55488 55</p>
+          </li>
+          <li>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.5183328317103!2d38.73181017587539!3d8.92429009113292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b81dae1da96fb%3A0xf3de974c15f4fc3!2zQWxpYmlyYSBTcXVhcmUgfCBTZWZlcmEgR2FybWVudCB84Yqg4YiK4Ymi4YirIOGKoOGLsOGJo-GJo-GLrSB8IOGIsOGNiOGIqyDhjIvhiK3hiJjhipXhibU!5e0!3m2!1sen!2set!4v1694794344395!5m2!1sen!2set"
+              height="350"
+              width="100%"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </li>
+          <form action="" class="contact-form">
+            <input
+              type="text"
+              placeholder="Your Name"
+              class="inputfields"
+              required
+            />
+            <input
+              type="email"
+              placeholder="Your Email"
+              class="inputfields"
+              required
+            />
+            <input
+              type="text"
+              placeholder="Subject"
+              class="inputfields"
+              required
+            />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Message"
+              class="messages"
+              required
+            ></textarea>
+            <input type="submit" value="Send Message" />
+          </form>
+        </ul>
+      </section>
+      <footer>
+        <div class="footer-header">
+          <h1>Company</h1>
+          <div>
+            <p>A108 Adam Street</p>
+            <p>NY 535022, USA</p>
+          </div>
+          <div>
+            <p><span>Phone:</span> +1 5589 55488 55</p>
+            <p><span>Email:</span> info@example.com</p>
+          </div>
+          <div class="contact-socials">
+            <div>
+              <img src="assets/icons/titter.svg" alt="" />
+            </div>
+            <div>
+              <img src="assets/icons/facebook.svg" alt="" />
+            </div>
+            <div>
+              <img src="assets/icons/instagram.svg" alt="" />
+            </div>
+            <div>
+              <img src="assets/icons/skypee.svg" alt="" />
+            </div>
+            <div>
+              <img src="assets/icons/linkedin.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="footer-main">
+          <ul class="new-footer">
+            <li class="list-1">
+              <div class="footer-title">Useful Links</div>
+              <ul class="footer-links">
+                <li class="footer-link">
+                  <img
+                    src="assets/icons/right-arrow.svg"
+                    alt=""
+                    class="right-arrow"
+                  />
+                  <a href="#home">Home</a>
+                </li>
+                <li class="footer-link">
+                  <img
+                    src="assets/icons/right-arrow.svg"
+                    alt=""
+                    class="right-arrow"
+                  />
+                  <a href="#about">About us</a>
+                </li>
+                <li class="footer-link">
+                  <img
+                    src="assets/icons/right-arrow.svg"
+                    alt=""
+                    class="right-arrow"
+                  />
+                  <a href="#services">Services</a>
+                </li>
+                <li class="footer-link">
+                  <img
+                    src="assets/icons/right-arrow.svg"
+                    alt=""
+                    class="right-arrow"
+                  />
+                  <a href="#home">Terms of service</a>
+                </li>
+                <li class="footer-link">
+                  <img
+                    src="assets/icons/right-arrow.svg"
+                    alt=""
+                    class="right-arrow"
+                  />
+                  <a href="#home">Privacy policy</a>
+                </li>
+              </ul>
+            </li>
+            <li class="list-1">
+              <div class="footer-title">Our services</div>
+              <ul class="footer-links">
+                <li class="footer-link">
+                  <img
+                    src="assets/icons/right-arrow.svg"
+                    alt=""
+                    class="right-arrow"
+                  />
+                  <a href="#home">Web Design</a>
+                </li>
+                <li class="footer-link">
+                  <img
+                    src="assets/icons/right-arrow.svg"
+                    alt=""
+                    class="right-arrow"
+                  />
+                  <a href="#home"> Web Development</a>
+                </li>
+                <li class="footer-link">
+                  <img
+                    src="assets/icons/right-arrow.svg"
+                    alt=""
+                    class="right-arrow"
+                  />
+                  <a href="#home">Product Management</a>
+                </li>
+                <li class="footer-link">
+                  <img
+                    src="assets/icons/right-arrow.svg"
+                    alt=""
+                    class="right-arrow"
+                  />
+                  <a href="#home"> Marketing</a>
+                </li>
+                <li class="footer-link">
+                  <img
+                    src="assets/icons/right-arrow.svg"
+                    alt=""
+                    class="right-arrow"
+                  />
+                  <a href="#home">Graphic Design</a>
+                </li>
+              </ul>
+            </li>
+            <li class="list-1">
+              <div class="footer-title">Our Newsletter</div>
+              <div class="newsletter">
+                Tamen quem nulla quae legam multos aute sint culpa legam noster
+                magna
+              </div>
+              <div class="subscribe">
+                <input type="email" />
+                <input type="submit" value="Subscribe" />
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="bottom">
+          <p>
+            © Copyright <b>Day</b>. All Rights Reserved Designed by
+            <a href="#" class="footer-mine">Abel shibabaw</a>
+          </p>
+        </div>
+      </footer>
     </main>
   </body>
 </html>

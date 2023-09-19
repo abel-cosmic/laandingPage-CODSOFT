@@ -64,6 +64,49 @@ nav {
   cursor: pointer;
   transition: scale 0.4s ease;
 }
-.menu-icon:active{
+.menu-icon:active {
   scale: 0.9;
+}
+.desktop-lists{
+    display: none;
+  }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* .desktop-lists{
+    display: none;
+  } */
+}
+
+/* Media query for desktops (min-width: 1024px) */
+@media screen and (min-width: 1024px) {
+  .menu-icon {
+    display: none;
+  }
+  .navbar{
+    padding: 0 2rem;
+    border: none;
+    padding-bottom: 0.5rem;
+  }
+  .desktop-lists{
+    display: flex;
+    gap: 1rem;
+  }
+  .desktop-lists li a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .desktop-lists li {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    transition: 0.4s ease;
+    cursor: pointer;
+  }
+  .desktop-lists li:hover{
+    background-color: #cc1616;
+
+  }
+  .active{
+    background-color: #cc1616;
+  }
 }

@@ -1,0 +1,126 @@
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 0.6rem;
+  padding-bottom: 0rem;
+}
+.footer-header {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-top: 0.2rem solid #cc1616;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+.contact-socials {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.contact-socials div {
+  display: flex;
+  flex-direction: row;
+  padding: 0.6rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 100%;
+  transition: 0.4s ease;
+}
+.contact-socials div:hover {
+  background-color: #cc1616;
+}
+.contact-socials div img {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.footer-link {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.footer-link a {
+  text-decoration: none;
+  color: white;
+  transition: 0.4s ease;
+  font-size: 0.8rem;
+}
+.footer-link a:hover {
+  color: #cc1616;
+}
+.right-arrow {
+  width: 0.4rem;
+}
+.footer-main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer-title {
+  font-weight: 700;
+}
+.list-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.new-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+.newsletter {
+  font-size: 0.8rem;
+}
+footer input[type="submit"] {
+  padding: 0.7rem 2rem;
+  width: fit-content;
+  background-color: #b80c0cd8;
+  border: none;
+  color: white;
+  font-weight: 500;
+  transition: ease 0.4s;
+}
+footer input[type="submit"]:hover {
+  background-color: #e51919;
+}
+footer input[type="submit"]:active {
+  scale: 0.9;
+}
+.subscribe{
+    display: flex;
+    flex-direction: row;
+}
+.subscribe input[type="email"]{
+    width: 100%;
+    padding-left: 1rem;
+}
+.footer-mine{
+    text-decoration: none;
+    color: #cc1616;
+    transition: 0.4s ease;
+    font-size: 0.8rem; 
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+.bottom{
+    font-size: 0.8rem;
+    display: flex;
+    opacity: 0.8;
+    flex-direction: column;
+    border-top: 0.5px #cccccc3e solid;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    height: fit-content;
+}
+
