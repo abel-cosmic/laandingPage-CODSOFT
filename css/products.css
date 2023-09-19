@@ -32,6 +32,7 @@
   flex-direction: column;
   position: relative;
   width: 20rem;
+  transition: display ease-in-out 1.4s;
 }
 .product-1 img {
   object-fit: contain;
@@ -50,6 +51,7 @@
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   box-shadow: 0 10px 100px #0000000e;
+  transition: 0.4s ease background-color;
 }
 .hovered img {
   width: 1.5rem;
@@ -68,4 +70,7 @@
 }
 .product-1:hover .hovered {
   display: flex;
+}
+.hovered:hover{
+  background-color: #fff;
 }

@@ -62,4 +62,8 @@ nav {
 }
 .menu-icon {
   cursor: pointer;
+  transition: scale 0.4s ease;
+}
+.menu-icon:active{
+  scale: 0.9;
 }

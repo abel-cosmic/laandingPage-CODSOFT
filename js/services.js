@@ -28,3 +28,26 @@ serviceItems.forEach((item, index) => {
     iconElement.src = defaultImages[index];
   });
 });
+// Define your image paths
+const defaultSocials = [
+  "assets/icons/titter (1).svg",
+  "assets/icons/facebook-1.svg",
+  "assets/icons/instagram (1).svg",
+  "assets/icons/linkedin-1.svg",
+];
+
+const hoveredSocials = [
+  "assets/icons/titter-1.svg",
+  "assets/icons/facebook-1-1.svg",
+  "assets/icons/instagram-1.svg",
+  "assets/icons/linkedin-1-1.svg",
+];
+const socialImages = document.querySelectorAll(".team-social");
+socialImages.forEach((socialImage, index) => {
+  socialImage.addEventListener("mouseenter", () => {
+    socialImage.src = hoveredSocials[index];
+  });
+  socialImage.addEventListener("mouseleave", () => {
+    socialImage.src = defaultSocials[index];
+  });
+});

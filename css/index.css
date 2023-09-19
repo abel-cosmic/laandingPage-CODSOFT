@@ -17,6 +17,7 @@ ___________________________________________________*/
 }
 .toogleup:hover {
   background-color: #cc1616;
+  transition: scale 0.4s ease;
 }
 .toogleup:active {
   scale: 0.9;

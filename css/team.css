@@ -1,0 +1,47 @@
+#team {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.teams {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.team-card {
+  font-style: italic;
+  box-shadow: 0px 5px 100px #ccccccac;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+.team-img {
+  width: 11rem;
+  border-radius: 100%;
+}
+.align{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team-name{
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.team-job{
+  font-size: 1rem;
+}
+.team-desc{
+  font-size: 0.9rem;
+  text-align: center;
+  color: #707070c8;
+}
+.team-socials{
+  display: flex;
+  gap:0.5rem
+}
+.team-social{
+  width: 1.1rem;
+}
